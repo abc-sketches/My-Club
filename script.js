@@ -80,7 +80,7 @@ function openSection(sectionType) {
                         <p style="color: var(--text-light); font-size: 0.9rem;">Specialized technical workshop attendance and participation.</p>
                         <span style="font-size: 0.8rem; color: var(--text-light);">Pacelab</span>
                     </div>
-                    <a href="assets/pacelab-bigdata.pdf" target="_blank" class="btn-primary">View Certificate</a>
+                    <a href="certificate-1.png" target="_blank" class="btn-primary">View Certificate</a>
                 </div>
 
             </div>

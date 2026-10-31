@@ -58,7 +58,7 @@ function openSection(sectionType) {
                         <p style="color: var(--text-light); font-size: 0.9rem;">Hands-on practical training and project execution.</p>
                         <span style="font-size: 0.8rem; color: var(--text-light);">Ediglobe</span>
                     </div>
-                    <a href="assets/ediglobe-internship.pdf" target="_blank" class="btn-primary">View Certificate</a>
+                    <a href="ediglobe-internship.pdf" target="_blank" class="btn-primary">View Certificate</a>
                 </div>
 
                 <!-- Ediglobe Course -->
@@ -69,7 +69,7 @@ function openSection(sectionType) {
                         <p style="color: var(--text-light); font-size: 0.9rem;">Completed core coursework modules during the training program.</p>
                         <span style="font-size: 0.8rem; color: var(--text-light);">Ediglobe</span>
                     </div>
-                    <a href="assets/ediglobe-course.pdf" target="_blank" class="btn-primary">View Certificate</a>
+                    <a href="ediglobe-course.pdf" target="_blank" class="btn-primary">View Certificate</a>
                 </div>
 
                 <!-- Pacelab Workshop -->

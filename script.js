@@ -73,6 +73,19 @@ function openSection(sectionType) {
             <p style="color: var(--text-light); margin-bottom: 2rem;">Verified professional development, internship records, and workshop completions.</p>
             
             <div style="display: grid; gap: 1.5rem;">
+
+
+                    <!-- FutureSkills Prime / NASSCOM -->
+                <div style="background: var(--card-bg); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                    <div>
+                        <span style="font-size: 0.75rem; background: rgba(234, 179, 8, 0.1); color: #eab308; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600;">Gold Category (89%)[span_0](start_span)[span_0](end_span)</span>
+                        <h3 style="color: var(--text-main); margin: 0.3rem 0;">Digital 101 - 30 Hours[span_1](start_span)[span_1](end_span)</h3>
+                        <p style="color: var(--text-light); font-size: 0.9rem;">FutureSkills Prime Digital Skilling Initiative by NASSCOM & MeitY[span_2](start_span)[span_2](end_span).</p>
+                        <span style="font-size: 0.8rem; color: var(--text-light);">Issued: 19/03/2026[span_3](start_span)[span_3](end_span)</span>
+                    </div>
+                    <a href="futureskills-digital101.pdf" target="_blank" class="btn-primary">View Certificate</a>
+                </div>
+                 
                 
                 <!-- Ediglobe Internship -->
                 <div style="background: var(--card-bg); padding: 1.5rem; border-radius: 10px; border: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">

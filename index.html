@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secure Portfolio Dashboard</title>
+    <title>Portfolio Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- ================= MAIN DASHBOARD (No Password Required) ================= -->
+    <!-- MAIN DASHBOARD -->
     <div id="dashboard-screen" class="dashboard-container">
         
         <!-- Header -->
         <header class="dash-header">
             <div class="dash-logo">My Portfolio<span>.</span></div>
-            <!-- Lock button removed since there is no password -->
         </header>
 
         <!-- Welcome Banner -->
@@ -48,7 +47,7 @@
             <div class="option-card" onclick="openSection('certificates')">
                 <div class="card-icon"><i class="fa-solid fa-award"></i></div>
                 <h2>Certificates</h2>
-                <p>Formal training records, webinar completions, and verified credentials.</p>
+                <p>Formal training records, internship completions, and verified credentials.</p>
                 <span class="explore-link">Explore <i class="fa-solid fa-arrow-right"></i></span>
             </div>
 
@@ -57,7 +56,7 @@
     </div>
 
 
-    <!-- ================= CONTENT SECTIONS (Initially Hidden) ================= -->
+    <!-- CONTENT SECTIONS (Initially Hidden) -->
     <div id="content-view" class="content-view hidden">
         <button class="back-btn" onclick="goBackToDashboard()"><i class="fa-solid fa-arrow-left"></i> Back to Dashboard</button>
         
@@ -68,5 +67,4 @@
     <!-- Script -->
     <script src="script.js"></script>
 </body>
-    
 </html>

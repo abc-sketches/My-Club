@@ -1,19 +1,27 @@
-const dashboardScreen = document.getElementById("dashboard-screen");
-const contentView = document.getElementById("content-view");
-const sectionContainer = document.getElementById("section-content-container");
-
-
-
-
-// --- Engineering Boot Transition Handler ---
+// --- ADD THIS AT THE VERY TOP OF script.js ---
 window.addEventListener("load", function() {
     const introOverlay = document.getElementById("intro-overlay");
     
-    // Fades out after 1.8 seconds (giving the terminal lines time to appear)
+    // Fades out after 1.8 seconds
     setTimeout(function() {
         introOverlay.classList.add("fade-out");
     }, 1800);
 });
+
+// (Your existing openSection and other functions follow right below...)
+const dashboardScreen = document.getElementById("dashboard-screen");
+...
+
+
+
+
+
+
+
+
+const dashboardScreen = document.getElementById("dashboard-screen");
+const contentView = document.getElementById("content-view");
+const sectionContainer = document.getElementById("section-content-container");
 
 
 

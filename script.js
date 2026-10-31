@@ -2,6 +2,26 @@ const dashboardScreen = document.getElementById("dashboard-screen");
 const contentView = document.getElementById("content-view");
 const sectionContainer = document.getElementById("section-content-container");
 
+
+
+
+// --- Engineering Boot Transition Handler ---
+window.addEventListener("load", function() {
+    const introOverlay = document.getElementById("intro-overlay");
+    
+    // Fades out after 1.8 seconds (giving the terminal lines time to appear)
+    setTimeout(function() {
+        introOverlay.classList.add("fade-out");
+    }, 1800);
+});
+
+
+
+
+
+
+
+
 // Open Selected Section
 function openSection(sectionType) {
     dashboardScreen.classList.add("hidden");

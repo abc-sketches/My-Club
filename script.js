@@ -1,16 +1,22 @@
-// --- ADD THIS AT THE VERY TOP OF script.js ---
-window.addEventListener("load", function() {
+// --- Engineering Boot Transition Handler (Fixed) ---
+function hideIntro() {
     const introOverlay = document.getElementById("intro-overlay");
-    
-    // Fades out after 1.8 seconds
-    setTimeout(function() {
-        introOverlay.classList.add("fade-out");
-    }, 1800);
-});
+    if (introOverlay) {
+        setTimeout(function() {
+            introOverlay.classList.add("fade-out");
+        }, 1800);
+    }
+}
 
-// (Your existing openSection and other functions follow right below...)
-const dashboardScreen = document.getElementById("dashboard-screen");
-...
+// Run immediately if already loaded, or wait for load event
+if (document.readyState === "complete") {
+    hideIntro();
+} else {
+    window.addEventListener("DOMContentLoaded", hideIntro);
+}
+
+// (Keep the rest of your openSection and dashboard code right below this...)
+
 
 
 

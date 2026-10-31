@@ -1,15 +1,3 @@
-// --- Bulletproof Intro Fade-Out ---
-window.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        const intro = document.getElementById("intro-overlay");
-        if (intro) {
-            intro.style.transition = "opacity 0.5s ease, visibility 0.5s ease";
-            intro.style.opacity = "0";
-            intro.style.visibility = "hidden";
-        }
-    }, 1800); // Waits 1.8 seconds then hides it directly via inline styles
-});
-
 
 
 
@@ -22,6 +10,17 @@ const sectionContainer = document.getElementById("section-content-container");
 
 
 
+// --- Bulletproof Intro Fade-Out ---
+window.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        const intro = document.getElementById("intro-overlay");
+        if (intro) {
+            intro.style.transition = "opacity 0.5s ease, visibility 0.5s ease";
+            intro.style.opacity = "0";
+            intro.style.visibility = "hidden";
+        }
+    }, 1800); // Waits 1.8 seconds then hides it directly via inline styles
+});
 
 
 

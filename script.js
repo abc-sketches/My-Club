@@ -81,7 +81,7 @@ function openSection(sectionType) {
                         <span style="font-size: 0.75rem; background: rgba(234, 179, 8, 0.1); color: #eab308; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 600;">Gold Category (89%)</span>
                         <h3 style="color: var(--text-main); margin: 0.3rem 0;">Digital 101 - 30 Hours</h3>
                         <p style="color: var(--text-light); font-size: 0.9rem;">FutureSkills Prime Digital Skilling Initiative by NASSCOM & MeitY.</p>
-                        <span style="font-size: 0.8rem; color: var(--text-light);">Issued: 19/03/2026[span_3](start_span)[span_3](end_span)</span>
+                        <span style="font-size: 0.8rem; color: var(--text-light);">Issued: 19/03/2026</span>
                     </div>
                     <a href="futureskills-digital101.pdf" target="_blank" class="btn-primary">View Certificate</a>
                 </div>

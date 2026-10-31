@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Portfolio Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= MAIN DASHBOARD (No Password Required) ================= -->
+    <div id="dashboard-screen" class="dashboard-container">
+        
+        <!-- Header -->
+        <header class="dash-header">
+            <div class="dash-logo">My Portfolio<span>.</span></div>
+            <!-- Lock button removed since there is no password -->
+        </header>
+
+        <!-- Welcome Banner -->
+        <section class="dash-hero">
+            <h1>Welcome to My Workspace</h1>
+            <p>Select a section below to explore my profile, builds, and credentials.</p>
+        </section>
+
+        <!-- 3 Options Grid -->
+        <section class="options-grid">
+            
+            <!-- Option 1: Personal Data -->
+            <div class="option-card" onclick="openSection('personal')">
+                <div class="card-icon"><i class="fa-solid fa-user-gear"></i></div>
+                <h2>Personal Data</h2>
+                <p>Background, education, core skills, and technical focus areas.</p>
+                <span class="explore-link">Explore <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <!-- Option 2: Projects -->
+            <div class="option-card" onclick="openSection('projects')">
+                <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                <h2>Projects</h2>
+                <p>Hardware builds, robotics, circuit simulations, and code repositories.</p>
+                <span class="explore-link">Explore <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <!-- Option 3: Certificates -->
+            <div class="option-card" onclick="openSection('certificates')">
+                <div class="card-icon"><i class="fa-solid fa-award"></i></div>
+                <h2>Certificates</h2>
+                <p>Formal training records, webinar completions, and verified credentials.</p>
+                <span class="explore-link">Explore <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ================= CONTENT SECTIONS (Initially Hidden) ================= -->
+    <div id="content-view" class="content-view hidden">
+        <button class="back-btn" onclick="goBackToDashboard()"><i class="fa-solid fa-arrow-left"></i> Back to Dashboard</button>
+        
+        <!-- Dynamic Content Injected Here -->
+        <div id="section-content-container"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+    
+</html>
